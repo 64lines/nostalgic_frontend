@@ -1,0 +1,25 @@
+.main-nav {
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-around;
+  flex-wrap: nowrap !important;
+
+  &__item {
+    margin: 0px 10px;
+    display: flex;
+    gap: 15px;
+  }
+
+  &__link {
+    color: black;
+  }
+
+  &__search {
+    flex-grow: 1;
+  }
+
+  &__link:hover {
+    color: black;
+  } 
+}

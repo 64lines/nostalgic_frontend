@@ -1,0 +1,14 @@
+$video-width-mobile: 78vw;
+$video-width-desktop: 50rem;
+
+.video-card {
+  &__video {
+    width: $video-width-mobile;
+    height: calc($video-width-mobile * (3 / 4));
+  
+    @media (min-width: 1024px) {
+      width: $video-width-desktop;
+      height: calc($video-width-desktop * (3 / 4));
+    }
+  }
+}
